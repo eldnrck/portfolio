@@ -1,0 +1,68 @@
+#home{
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    padding-bottom: 2cm;
+    background-color: blueviolet;
+}
+header{
+    font-size: 30px;
+    color: plum;
+    float: left;
+    padding-left: 2cm;
+}
+nav{
+    float: right;
+    padding-right: 1cm;
+}
+nav button{
+    color: lightgray;
+    background-color: darkmagenta;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+}
+
+nav button:hover{
+    color: white;
+    font-weight: bolder;
+    background-color: purple;
+    
+}
+
+/* Container for all the three conversion calculator sections   */
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+
+figure {
+    float:left; 
+    justify-self: auto; 
+    width:200px
+}
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    color:black;
+    font-size: 17px;
+    text-align: center;
+}
+
+button{
+    font-size: 20px;
+    border: transparent;
+    width: fit-content;
+    background-color: rgb(173, 218, 173);
+    border-radius: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}

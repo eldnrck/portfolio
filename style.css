@@ -1,0 +1,16 @@
+.top-header {
+  display: flex;
+  justify-content: space-between; /* title left, nav right */
+  align-items: center;
+  background: grey;
+  padding: 10px;
+}
+
+#portfolioTitle {
+  color: blueviolet;
+  margin: 0;
+}
+
+.navbar {
+  background: none; /* remove black here since header has it */
+}
