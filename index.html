@@ -1,101 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eldon Rick | Portfolio</title>
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
 <body>
 
 <header class="top-header">
-  <h1 id="portfolioTitle">My Portfolio</h1>
+  <h1 id="portfolioTitle">Eldon Rick Yabut</h1>
 <!--NAVIGATION BAR-->
   <nav class="navbar">
     <ul class="nav-links">
-      <li><a href="#aboutMe">About Me</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#aboutMe">About</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#musthaveprojects">Must-have Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
 
-    <!--About me section-->
+<!--Hero-->
+<section id="home">
+<div class="container-hero">
+  <div class="item-1">
+    <h6 style="color: rgb(69, 73, 77);">Welcome to my Portfolio!</h6>
+    <h1>Hello, my name's <span class="highlight">Eldon.</span></h1>
+    <h5>Im an aspiring Software Developer from the Philippines. Currently working as a Service Desk Analyst.</h5>
+    <div class="container-hero-btn">
+    <button class="hero-btn">Download CV</button>
+    <button class="hero-btn">Contact me!</button>
+    </div>
+  </div>
+  <div class="item-2"><img src="./Images/me.jpg" alt="me"></div>
+</div>
+</section>
+
 <section id="aboutMe">
-  <h2>About Me</h2>
-  <p>
-    <p>
-      Hi, I’m Eldon Rick T. Yabut, you can call me Don. I’m a Service Dask Analyst transitioning into software engineering by building real projects.
-    </p>
-    I am a Service Desk Analyst working in an insurance fintech company and currently
-    transitioning into software engineering. I am building real-world projects using
-    HTML, CSS, and JavaScript while continuously upskilling.
-  </p>
+<div class="container-abt-me-1">
+  <h1>About Me</h1>
+  </div>
+<div class="container-abt-me-2">
+<div class="item1-abt-me-1">
+  <h2>👤Basic Introduction</h2>
+  <p>Hi, I’m Eldon, an aspiring Developer with a passion for solving technical problems and improving system performance.</p>
+</div>
+<div class="item1-abt-me-2">
+  <h2>🎯Direction</h2>
+  <p>I’m focused on building a career in Tech, where I can solve real-world problems through code and create impactful digital solutions.</p>
+</div>
+</div>
 
-  <p>
-    Outside of tech, I train in combat sports such as Brazilian Jiu-Jitsu, Boxing,
-    Kickboxing, Muay Thai, and MMA. Running and disciplined training have taught me
-    consistency, problem-solving, and resilience—skills I bring into my work in tech.
-  </p>
+<div class="container-abt-me-3">
+<div class="item2-abt-me-1">
+  <h2>💪 Strengths</h2>
+  <p>I bring discipline and consistency to my work, and I enjoy solving problems step-by-step until they’re fully resolved.</p>
+</div>
+<div class="item2-abt-me-2">
+  <h2>⭐ Unique Edge</h2>
+  <p>With a background in fintech, I’ve developed strong problem-solving skills, attention to detail, and the ability to work effectively under pressure.</p>
+</div>
+</div>
 
-  <p>
-    My goal is to grow into a skilled Software Engineer and contribute to building
-    reliable, user-focused applications.
-  </p>
+<div class="container-skills" id="skillsContainer">
+  <button id="skillsPrev"><</button>
+  <div class="skills-viewport">
+  <div class="skills-track" id="skillsTrack">
+   </div>
+  </div>
+ <button id="skillsNext">></button>
+</div>
+
+<div class="containers-skills-bullet">
+
+    <div class="item-skills-bullet1">
+  <h1>💻 Programming Languages</h1>
+  <ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+  </ul>
+  </div>
+      
+  <div class="item-skills-bullet2">
+  <h1>⚙️ Tools & Technologies</h1>
+  <ul>
+    <li>Git</li>
+    <li>GitHub</li>
+    <li>Postman</li>
+    <li>AWS Cloudwatch</li>
+    <li>JIRA</li>
+    <li>ServiceNow</li>
+  </ul>
+  </div>
+
+    <div class="item-skills-bullet1">
+  <h1>🧪 Application Support & Technical Skills</h1>
+  <ul>
+    <li>System Troubleshooting</li>
+    <li>Incident Analysis</li>
+    <li>Log Analysis</li>
+    <li>Root Cause Analysis</li>
+    <li>User Support / Ticket Handling</li>
+    <li>Incident Management (ITIL)</li>
+    <li>Problem Management (ITIL)</li>
+  </ul>
+  </div>
+
+      <div class="item-skills-bullet2">
+  <h1>🧠 Soft Skills (High Value for You)</h1>
+  <ul>
+    <li>Problem-solving</li>
+    <li>Analytical thinking</li>
+    <li>Attention to detail</li>
+    <li>Discipline & consistency</li>
+    <li>Adaptability</li>
+    <li>Continuous learning mindset</li>
+  </ul>
+  </div>
+
+</div>
 </section>
 
-    <!--Skills section-->
-    <section id="skills">
-        <h2>Skills:</h2>
-   <ul>
-  <li><h3>Tools and Technologies:</h3>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>Bootstrap</li>
-      <li>Jest</li>
-      <li>Microsoft Office</li>
-      <li>Active Directory</li>
-      <li>Computer Hardware</li>
-      <li>Jira</li>
-      <li>ServiceNow</li>
-    </ul>
-    </li>
-
-    <li><h3>Industry Knowledge</h3>
-        <ul>
-            <li>Object Oriented Programming</li>
-            <li>Functional Programming</li>
-            <li>Software Development Life Cycle</li>
-            <li>ITILv4</li>
-            <li>Incident Management</li>
-            <li>Root Cause Analysis(RCA)</li>
-            <li>Problem Management</li>
-        </ul>
-    </li>
-    </ul>
-    </section>
-
-<!--Contacts Section-->
-<section id="contacts">
-    <h3>Contacts:</h3>
-        <ul>
-            <li>
-                <a href="https://github.com/eldnrck" target="_blank" rel="noopener noreferrer">GitHub</a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/eldon-rick-yabut-633651166/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/eldnrck/" target="_blank" rel="noopener noreferrer">Instagram</a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/eldnrck" target="_blank" rel="noopener noreferrer">Facebook</a>
-            </li>
-            <li>Email: eldonyabut@gmail.com</li>
-            <li>Mobile number: 0976 081 9977</li>
-        </ul>
+<section id="projects">
+<div class="container-projects">
+<h2>Projects</h2>
+<div class="projects-item1">
+  <h1>Coming Soon. Stay tuned.</h1>
+</div>
+</div>
 </section>
-</body>
+
+<section id="contact">
+  <div class="container-contact" id="containerContact">
+
+<div class="contact-item1" id="contactItem1"><h1>Let’s turn ideas into reality</h1>
+<button class="contactButton" id="contactMe">Contact me</button>
+</div>
+
+<div class="contact-item2 hidden" id="contactItem2">
+      <button id="backBtn" type="button">← Back</button>
+    <div class="contact-layout">
+    
+    <!-- LEFT SIDE -->
+    <div class="contact-details">
+      <h1>Contact Details</h1>
+      <p>Email: eldonyabut@gmail.com</p>
+      <p>Phone: +63 xxx xxx xxxx</p>
+      <p>Location: Philippines</p>
+          <div class="social-icons">
+  <button><i class="fa-brands fa-facebook"></i></button>
+  <button><i class="fa-brands fa-instagram"></i></button>
+  <button><i class="fa-brands fa-github"></i></button>
+    </div>
+
+</div>
+
+  <form class="contact-form">
+
+    <div class="name-group">
+      <input type="text" placeholder="First Name">
+      <input type="text" placeholder="Last Name">
+    </div>
+
+    <input type="email" placeholder="Email (required)">
+    
+    <textarea placeholder="Message (required)" cols="30" rows="15"></textarea>
+    
+
+    <button type="submit">SUBMIT</button>
+
+  </form>
+</div>
+  </div>
+
+
+</section>
+
+
+
+</body>  
+<footer class="footer" id="footer">
+  <div class="footer-grid">
+    <div>
+      <h1>Contact Details</h1>
+      <p>Email: eldonyabut@gmail.com</p>
+      <p>Phone: +63 xxx xxx xxxx</p>
+      <p>Location: Philippines</p>
+  <button><i class="fa-brands fa-facebook"></i></button>
+  <button><i class="fa-brands fa-instagram"></i></button>
+  <button><i class="fa-brands fa-github"></i></button>
+    </div>
+
+    <div>
+      <h3>Projects</h3>
+      <a href="#">Calculator</a><br>
+      <a href="#">To do app</a><br>
+      <a href="#">Pomodoro</a>
+    </div>
+
+    <div>
+      <h3>Services</h3>
+      <a href="#">Consulation</a><br>
+      <a href="#">Web development</a><br>
+      <a href="#">Application Support and Maintenance</a>
+    </div>
+  </div>
+
+  <p class="footer-copy">© 2026 Eldon Rick Yabut</p>
+  </footer>
+  <script src="script.js"></script>
 </html>
