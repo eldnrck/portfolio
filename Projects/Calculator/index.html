@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:wght@400;600&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <title>MyCalculator</title>
+</head>
+<body>
+
+  <div class="container-body">
+
+    <header>
+      <h1>MyCalculator</h1>
+    </header>
+
+    <div class="content">
+      <div class="body-item1">
+        <p>MyCalculator is a simple, fast, and responsive web-based calculator designed to handle everyday arithmetic operations with ease. It provides a clean and intuitive interface, allowing users to perform basic calculations such as addition, subtraction, multiplication, and division efficiently.
+
+Built using modern web technologies, this application focuses on usability, performance, and a smooth user experience. The layout is structured using a combination of Flexbox and Grid to ensure a responsive and organized design across different screen sizes.
+
+Whether you're doing quick calculations or testing functionality, MyCalculator delivers a reliable and user-friendly experience.</p>
+      </div>
+
+      <div class="body-item2">
+        <form class="calculator-form">
+
+            <div class="display">
+            
+            <div class="inputNums">
+          
+            <div class="firstNum" id="firstNum"></div>
+            <div class="operator" id ="operator"></div>
+            <div class="secondNum" id ="secondNum"></div>
+              
+            </div>
+            <div class="result">
+  <input type="text" id="screen" value="0" readonly>
+  </div>
+            </div>
+            <div class="buttons">
+
+            <div class="item-ac eraser">C</div>
+            <div class="item-c eraser">CE</div>
+            <div class="item-backspace eraser">⌫</div>
+            <div class="item-divide operator">/</div>
+
+            <div class="item-7 number">7</div>
+            <div class="item-8 number">8</div>
+            <div class="item-9 number">9</div>
+            <div class="item-multiply operator">x</div>
+
+            <div class="item-4 number">4</div>
+            <div class="item-5 number">5</div>
+            <div class="item-6 number">6</div>
+            <div class="item-substraction operator">-</div>
+
+            <div class="item-1 number">1</div>
+            <div class="item-2 number">2</div>
+            <div class="item-3 number">3</div>
+            <div class="item-addition operator">+</div>
+            
+            <div class="item-0 number">0</div>
+            <div class="item-dot number">.</div>
+            <div class="item-equal equals" id="equals">=</div>
+            </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  
+<script src="./script.js"></script>
+</body>
+</html>
